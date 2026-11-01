@@ -1,0 +1,28 @@
+export const profile = {
+  name: 'Aafreen Khan',
+  email: 'aafreen22k@gmail.com',
+  github: 'https://github.com/Aafreen2203',
+  linkedin: 'https://www.linkedin.com/in/aafreenkhan-m2204/',
+};
+
+export const projects = [
+  { id: 'scholarsignal', name: 'ScholarSignal', eyebrow: 'SEARCH · INFORMATION RETRIEVAL', summary: 'Finding the right research paper should not depend on guessing the exact words an author used.', description: 'A research discovery platform combining lexical and semantic retrieval so relevant academic publications can surface even when search wording differs from the paper.', technologies: ['Python', 'FastAPI', 'FastEmbed', 'PostgreSQL', 'pgvector'], repo: 'https://github.com/Aafreen2203/ScholarSignal', featured: true, visual: 'signal', notes: ['384-dimensional MiniLM embeddings', 'PostgreSQL full-text search with pgvector similarity', 'Reciprocal Rank Fusion combines result lists', 'Evaluation uses a five-query pilot benchmark; results are an early signal, not a broad benchmark'] },
+  { id: 'nutriai', name: 'NutriAI', eyebrow: 'RECOMMENDATION SYSTEMS', summary: 'A recommendation system exploring how user preference and item similarity can work together.', description: 'A personalised recommendation system that combines content-based filtering with matrix factorisation to explore complementary recommendation approaches.', technologies: ['Python', 'Scikit-learn', 'Pandas', 'TF-IDF', 'SVD', 'React'], repo: 'https://github.com/Aafreen2203/NutriAI_dep', featured: true, visual: 'nutri', notes: ['Content-based filtering using TF-IDF and cosine similarity', 'Matrix factorisation with SVD', 'React interface with Express.js services'] },
+  { id: 'ghostshift', name: 'GhostShift', eyebrow: 'APPLIED AI · ENGINEERING', summary: 'Making an engineering team’s past incidents easier to find when the next one arrives.', description: 'An AI-powered institutional memory concept for retrieving historical incident context and resolutions through contextual search.', technologies: ['Next.js', 'TypeScript', 'Python', 'Embeddings', 'MongoDB Atlas'], repo: 'https://github.com/Aafreen2203/GhostShift', featured: true, visual: 'ghost', notes: ['Incident classification and contextual retrieval', 'Embeddings with vector search', 'Repository reports 9/9 tests passing in its test suite'] },
+  { id: 'safepost', name: 'SafePost AI', eyebrow: 'RESEARCH · PRIVACY', summary: 'A privacy-focused moderation concept designed to keep sensitive-content processing local.', description: 'A browser-extension research project using OCR, NLP and local AI models to identify sensitive information without sending content to external services.', technologies: ['OCR', 'Python', 'Hugging Face', 'NLP', 'Local models'], repo: 'https://github.com/Aafreen2203/SafePostAI', featured: true, visual: 'safe', notes: ['Reported OCR accuracy: 92.4%; reported F1-score: 0.87', 'Presented at RCAAI 2025', 'Published as Chapter 52 in Technology for a Resilient Future (Taylor & Francis)'] },
+  { id: 'f1', name: 'F1 Powertrain Intelligence', eyebrow: 'DATA SCIENCE · SPORTS', summary: 'Exploring race-session telemetry and anomaly detection through a data analysis platform.', description: 'A Formula 1 analysis platform built around public session and telemetry data. Public telemetry is not the same as proprietary powertrain measurements.', technologies: ['Python', 'FastF1', 'Streamlit', 'Pandas', 'Scikit-learn', 'Plotly'], repo: 'https://github.com/Aafreen2203/F1-Powertrain-Intelligence-Platform', featured: false, visual: 'f1', notes: ['Explores public race-session data and telemetry', 'Includes anomaly detection and visual analysis', 'Does not claim access to proprietary engine or powertrain data'] },
+  { id: 'nagar-setu', name: 'Nagar Setu', eyebrow: 'CIVIC TECH · FULL STACK', summary: 'A civic grievance management platform connecting residents, workers and administrators.', description: 'A civic platform with role-based dashboards, geotagging and Firebase Realtime Database.', technologies: ['React', 'Firebase', 'Geotagging', 'Dashboards'], repo: 'https://github.com/Aafreen2203/NagarSetu', featured: false, visual: 'civic', notes: ['User, worker and administrator dashboards', 'Geotagging and Firebase Realtime Database'] },
+];
+
+export const skills = [
+  { title: 'Programming', items: ['Python', 'Java', 'C++', 'SQL', 'JavaScript', 'TypeScript'] },
+  { title: 'Machine learning', items: ['Scikit-learn', 'TensorFlow', 'FastEmbed', 'Hugging Face', 'Feature engineering', 'Model evaluation'] },
+  { title: 'Search & language', items: ['NLP', 'Semantic search', 'Text embeddings', 'Vector search', 'Hybrid retrieval', 'RAG', 'OCR'] },
+  { title: 'Data & systems', items: ['Pandas', 'NumPy', 'SciPy', 'PostgreSQL', 'pgvector', 'MongoDB', 'Hadoop', 'REST APIs'] },
+  { title: 'Development', items: ['FastAPI', 'React', 'Next.js', 'Node.js', 'Express.js', 'Git', 'Docker', 'Pytest', 'Playwright', 'CI/CD'] },
+];
+
+export const experience = [
+  { company: 'ReaEspresso PropTech Pvt. Ltd.', role: 'Data & AI Intern', date: 'Jun – Jul 2025', points: ['Analysed operational data with SQL and Python/Pandas; developed data-processing and reporting workflows.', 'Processed operational log files with Hadoop HDFS and MapReduce scripts; performed exploratory analysis and built Power BI dashboards.', 'Contributed to approximately 25% fewer manual reporting errors.'] },
+  { company: 'Ceeras IT Services', role: 'Software Engineering Intern', date: 'Feb – May 2025', points: ['Worked on client-facing applications and backend integrations.', 'Developed and tested REST API integrations; supported UAT, debugging and regression testing.', 'Collaborated with developers and stakeholders to resolve implementation issues.'] },
+];
